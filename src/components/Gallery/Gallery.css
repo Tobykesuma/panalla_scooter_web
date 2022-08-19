@@ -1,0 +1,208 @@
+.app__gallery {
+    flex-direction: row;
+    background: var(--main-color);
+    padding: 4rem 0 4rem 6rem;
+}
+
+.app__gallery__content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    min-width: 500px;
+    padding-right: 2rem;
+}
+
+.app__gallery__content button {
+    margin-top: 1rem;
+}
+
+.app__gallery__images {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    max-width:50%;
+    position: relative;
+}
+
+.app__gallery__images__container {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.app__gallery__images__container::-webkit-scrollbar {
+    display: none;
+}
+
+.app__gallery__image__card {
+    position: relative;
+    min-width: 301px;
+    height: 447px;
+    margin-right: 2rem;
+}
+
+.gallery__image__icons {
+    position: absolute;
+    color: var(--color-white);
+    font-size: 2rem;
+    opacity: 0;
+    transition: .5s ease;
+    /* cursor: pointer; */
+}
+
+.app__gallery__image__card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.app__gallery__images__card:hover img {
+    opacity: .35;
+
+}
+
+.app__gallery__image__card:hover .gallery__image__icons {
+    opacity: 1;
+}
+
+.app__gallery__images__arrows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    position: absolute;
+    bottom: 5%;
+}
+
+.gallery__arrow__icons {
+    color: var(--color-white);
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: var(--color-black);
+    border-radius: 5px;
+}
+
+.gallery__arrow__icons:hover {
+    color: var(--color-golden);
+}
+
+.app__gallery__headtext {
+    font-family: var(--font-sick);
+    color: var(--color-white);
+    font-size: 64px;
+    line-height: 82.3px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+
+.app__gallery__subtext {
+    font-family: var(--font-alt);
+    color: var(--color-white);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.button__button__gallery {
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+/* Breakpoints */
+
+@media screen and (min-width: 2000px) {
+    .button__button__gallery {
+        font-size: 37px;
+        line-height: 67px;
+    }
+
+    .app__gallery__headtext {
+        font-size: 150px;
+        line-height: 210px;
+    }
+
+    .app__gallery__content button {
+        margin-top: 2rem;
+    }
+
+    .app__gallery__content {
+        min-width: 1000px;
+        padding-right: 4rem;
+    }
+
+    .app__gallery__image__card {
+        min-width:400px;
+        height: 547px;
+    }
+}
+
+
+@media screen and (max-width: 1150px) {
+    .app__gallery {
+        flex-direction: column;
+    }
+
+    .app__gallery__images {
+        max-width: 100%;
+        margin: 5rem 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .app__gallery {
+        padding: 4rem 0 4rem 4rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__gallery {
+        padding: 4rem 0 4rem 2rem;
+    }
+    
+    .app__gallery__content {
+        min-width: 100%;
+    }
+
+    .app__gallery__image__card {
+        min-width: 240px;
+        height: 320px;
+    }
+
+
+    .app__gallery__subtext {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__gallery__headtext {
+        font-size: 45px;
+        line-height: 70px;
+    }
+
+    .app__gallery__subtext {
+        font-size: 12px;
+    }
+}

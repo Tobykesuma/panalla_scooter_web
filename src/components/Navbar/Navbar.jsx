@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import image from '../../constant/image';
 import { FaBars, FaTimes} from 'react-icons/fa';
+// import { Link } from 'react-router-dom';
 
 
 
@@ -18,7 +19,7 @@ const Navbar = () => {
             setColor(false)
         }
     }
-
+    
     window.addEventListener('scroll', changeColor)
 
     return (
@@ -37,19 +38,19 @@ const Navbar = () => {
                         <a href='/' onClick={closeMenu}>Home</a>
                     </li>
                     <li className='nav-items'>
-                        <a href='#rent' onClick={closeMenu}>Rent Scooters</a> 
+                        <a href='/rent' onClick={closeMenu}>Rent Scooters</a> 
                     </li>
                     <li className='nav-items'>
-                        <a href='#about' onClick={closeMenu}>About</a> 
+                        <a href='/about' onClick={closeMenu}>About</a> 
                     </li>
                     <li className='nav-items'>
-                        <a href='#services' onClick={closeMenu}>Services</a>
+                        <a href='/services' onClick={closeMenu}>Services</a>
                     </li>
                     <li className='nav-items'>
-                        <a href='#testimoni' onClick={closeMenu}>Testimonials</a>
+                        <a href='/testimoni' onClick={closeMenu}>Testimonials</a>
                     </li>
                     <li className='nav-items'>
-                        <a href='#gallery' onClick={closeMenu}>Gallery</a>
+                        <a href='/gallery' onClick={closeMenu}>Gallery</a>
                     </li>
                     <button className='button__booking'>
                         <a href='https://api.whatsapp.com/send?phone=6287862127513&text=Hello Panalla Scooter Bali' onClick={closeMenu}>BOOK NOW</a>

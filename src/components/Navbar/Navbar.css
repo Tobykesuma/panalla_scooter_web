@@ -12,7 +12,7 @@
 
 .app__header-bg {
     /* background-color: rgba(0,0,0,.9); */
-    background-color: var(--color-orange);
+    background-color: var(--main-color);
 }
 
 .app__header .app__navbar {
@@ -34,8 +34,9 @@
     color: var(--color-white);
     font-family: var(--font-base);
     font-weight: 600;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.05em;
     list-style: none;
+    font-size: 15px;
 }
 
 .app__header .nav-items li, ul  {
@@ -89,10 +90,12 @@
 }
 
 
+/* BreakPoints */
+
 @media screen and (max-width: 940px) {
     .app__header {
         max-width: 100%;
-        background-color: var(--color-orange);
+        background-color: var(--main-color);
     }
 
     .app__header .app__navbar {
@@ -108,7 +111,7 @@
         left: -100%;
         top: 130px;
         flex-direction: column;
-        background-color: var(--color-orange);
+        background-color: var(--main-color);
         width: 100%;
         height: 90vh;
         z-index: 999;
@@ -148,5 +151,13 @@
 
 
 }
+
+
+@media screen and (max-width: 415px) {
+    .nav-items {
+        margin: 0.5rem;
+    }
+}
+
 
 

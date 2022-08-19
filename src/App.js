@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import ScrollTop from './components/BacktoTop/ScrollTop';
 import scrollreveal from 'scrollreveal';
 import About from './pages/About/About';
+import Gallery from './components/Gallery/Gallery';
 
 
 
@@ -47,6 +48,7 @@ function App() {
         <ScrollTop />
         <Navbar />
         <About />
+        <Gallery />
 
 
         <Footer />
