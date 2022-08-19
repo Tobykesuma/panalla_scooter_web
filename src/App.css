@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Loader */
+/* .app__loading{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+} */
+
+.section___pading {
+  padding: 3rem 1rem;
+}
+
+.relative {
+  position: relative;
+}
+
+ul, li {
+  text-decoration: none;
+
+}
+
+.app__wrapper__img img {
+  width: 80%;
+}
+
+.app__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app__bg {
+  background: url('./assets/bg__about.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  opacity: 10;
+}
+
+.app__wrapper__img {
+  flex: 1;
+  display: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.app__wrapper__info {
+  flex: 1;
+  width: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.app__outline__image {
+  display: flex;
+  opacity: 40;
+  top: 0px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 968px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.gird {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* BreakPoints */
+
+@media screen and (min-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1150px) {
+
+}
+
+@media screen and (max-width: 850px) {
+  .section___pading {
+    padding: 1rem 1rem;
   }
-  to {
-    transform: rotate(360deg);
+
+
+}
+
+@media screen and (max-width: 450px) {
+  .app__outline__image {
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.2rem;
   }
 }
+
