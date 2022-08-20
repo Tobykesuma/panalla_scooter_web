@@ -49,6 +49,12 @@
     display: flex;
 }
 
+.nav-items a,
+.button__booking a {
+    text-decoration: none;
+}
+
+
 .app__header .nav-items {
     padding: 1rem;
     font-weight: 500;
@@ -74,7 +80,6 @@
     font-family: var(--font-alt);
     transition: all .3s;
     width: 130px;
-    height: 45px;
 }
 
 .nav-menu .button__booking a {

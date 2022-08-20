@@ -1,0 +1,98 @@
+.app__footer {
+    background: var(--main-color);
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.app__footer__logo img {
+    width: 190px;
+    height: auto;
+}
+
+.app__footer-content {
+    color: var(--color-white);
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.quick__link {
+    border: none !important;
+    background: transparent !important;
+}
+
+.quick__link a {
+    color: var(--color-white);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.quick__link a:hover {
+    color: var(--color-black);
+}
+
+.footer__link-title {
+    color: var(--color-white);
+}
+
+.office__info {
+    color: var(--color-white);
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border: 1px solid var(--color-darkblue);
+    border-radius: 50px;
+    background: var(--color-white);
+}
+
+.newsletter input {
+    background: transparent;
+    color: var(--color-black);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.newsletter span i {
+    color: var(--color-black);
+    cursor: pointer;
+}
+
+.footer__bottom {
+    border-top: 5px solid var(--color-black);
+}
+
+/* BreakPoints */
+
+@media only screen and (max-width: 768px) {
+    .app__footer-content {
+        font-size: 0.8rem;
+    }
+
+    .quick__link,
+    .office__info {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+
+    .footer__link-title {
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+
+    .footer__bottom p {
+        font-size: 0.7rem;
+    }
+
+    .section__description i {
+        margin-bottom: 30px;
+    }
+    
+
+
+}
+

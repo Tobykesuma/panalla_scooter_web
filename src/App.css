@@ -74,11 +74,26 @@ ul, li {
   align-items: center;
 }
 
-.container {
+.section__description {
+  color: var(--color-white);
+  font-size: 0.9rem;
+  line-height: 30px;
+  text-align: center;
+}
+
+.section__description2 {
+  color: var(--color-white);
+  font-size: 0.9rem;
+  line-height: 30px;
+}
+
+
+
+/* .container {
   max-width: 968px;
   margin-right: 0;
   margin-left: 0;
-}
+} */
 
 .gird {
   display: flex;
