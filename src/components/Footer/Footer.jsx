@@ -74,7 +74,7 @@ const Footer = () => {
               <p className='office__info'>Jln. Benesari No.01, Kuta, Badung, Bali</p>
               <p className='office__info'>Phone: +62 812345678910</p>
               <p className='office__info'>Email : @infopanallascooterbali.com</p>
-              <p className='office__info'>Office Time: 8AM - 9PM</p>
+              <p className='office__info'>Office Time: 9AM - 9PM</p>
             </div>
           </Col>
 

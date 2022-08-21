@@ -1,0 +1,113 @@
+.from__group {
+    width: 30%;
+    margin-bottom: 0;
+}
+
+.from__group input {
+    border: 1px solid var(--main-color);
+    padding: 8px 12px;
+    width: 100%;
+    outline: none;
+}
+
+.from__group input::placeholder {
+    color: var(--color-black);
+}
+
+.scooter__form {
+    background: var(--color-white);
+    padding-top: 55px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.select__group {
+    width: 30%;
+    position: relative;
+}
+
+.select__group select, input, label {
+    width: 98%;
+    padding: 10px 15px;
+    border-radius: 1px solid #7c8a972a;
+    outline: none;
+    color: #7c8a97;
+}
+
+.select__group a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+
+.find__scooter-btn{
+    background: #000d6b !important;
+    color: var(--color-white) !important;
+    padding: 8px 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+
+.find__scooter-btn {
+        font-size: 1.3rem;
+    }
+
+
+
+/* BreakPoints */
+
+@media only screen and (max-width: 992px) {
+    .scooter__form {
+        padding: 30px 10px;
+    }
+
+    .from__group input,
+    .select__group select {
+        padding: 7px 10px;
+        font-size: 0.8rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .scooter__form {
+        padding: 20px 10px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .from__group {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .from__group input {
+        font-size: 0.7rem !important; 
+    }
+
+    .select__group {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 0.7rem;
+    }
+
+    .find__scooter-btn {
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 415px) {
+    .form__scooter__rent {
+        flex-wrap: wrap;
+    }
+
+    
+}

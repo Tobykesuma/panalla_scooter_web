@@ -8,6 +8,7 @@ import scrollreveal from 'scrollreveal';
 import About from './pages/About/About';
 import Gallery from './components/Gallery/Gallery';
 import Rent from './pages/Rent/Rent';
+import FindScooterForm from './components/FindScooterForm/FindScooterForm';
 
 
 
@@ -50,6 +51,7 @@ function App() {
         <Navbar />
         
         <About />
+        <FindScooterForm />
         <Gallery />
         <Rent />
 
