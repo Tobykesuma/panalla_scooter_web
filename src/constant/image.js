@@ -14,10 +14,19 @@ import Varion from '../assets/varion.png';
 import PcxHonda from '../assets/pcxhonda.png'
 
 // Gallery Images //
-import Gallery01 from '../assets/gallery01.png';
-import Gallery02 from '../assets/gallery02.png';
-import Gallery03 from '../assets/gallery03.png';
-import Gallery04 from '../assets/gallery04.png';
+import Gallery01 from '../assets/client1.jpeg';
+import Gallery02 from '../assets/client2.jpeg';
+import Gallery03 from '../assets/client3.jpeg';
+import Gallery04 from '../assets/client4.jpeg';
+import Gallery05 from '../assets/client5.jpeg';
+import Gallery06 from '../assets/client6.jpeg';
+import Gallery07 from '../assets/client7.jpeg';
+import Gallery08 from '../assets/client8.jpeg';
+import Gallery09 from '../assets/client9.jpeg';
+import Gallery10 from '../assets/client10.jpeg';
+import Gallery11 from '../assets/client11.jpeg';
+import Gallery12 from '../assets/client12.jpeg';
+import Gallery13 from '../assets/client13.jpeg';
 
 
 export default {
@@ -32,5 +41,13 @@ export default {
     Gallery02,
     Gallery03,
     Gallery04,
-    
+    Gallery05,
+    Gallery06,
+    Gallery07,
+    Gallery08,
+    Gallery09,
+    Gallery10,
+    Gallery11,
+    Gallery12,
+    Gallery13,
 }

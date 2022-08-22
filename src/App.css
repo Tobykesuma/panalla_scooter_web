@@ -76,7 +76,7 @@ ul, li {
 
 .section__description {
   color: var(--color-white);
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 30px;
   text-align: center;
 }
@@ -125,5 +125,7 @@ ul, li {
     align-items: center;
     margin-bottom: 0.2rem;
   }
+
+  
 }
 

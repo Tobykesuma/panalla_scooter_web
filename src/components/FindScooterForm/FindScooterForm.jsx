@@ -23,9 +23,7 @@ const FindScooterForm = () => {
             </FormGroup> */}
 
             <FormGroup className='select__group'>
-                
                 <input type='date' placeholder='Date' required />
-                
             </FormGroup>
 
             <FormGroup className='select__group'>

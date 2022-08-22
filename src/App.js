@@ -9,6 +9,7 @@ import About from './pages/About/About';
 import Gallery from './components/Gallery/Gallery';
 import Rent from './pages/Rent/Rent';
 import FindScooterForm from './components/FindScooterForm/FindScooterForm';
+import ScooterRent from './components/ScooterItem/ScooterRent';
 
 
 
@@ -53,6 +54,7 @@ function App() {
         <About />
         <FindScooterForm />
         <Gallery />
+        <ScooterRent />
         <Rent />
 
 
