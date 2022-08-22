@@ -5,21 +5,23 @@ import {
 } from 'reactstrap';
 import {
     imgUrl,
-    model,
-    automatic,
+    shortbrandName,
     scooterName,
-    speed,
     price,
+    price_week,
+    hubungi,
+
 } from'../../constant/ScooterData';
 
 const ScooterItem = (props) => {
     const {
         imgUrl,
-        model,
-        automatic,
+        shortbrandName,
         scooterName,
-        speed,
-        price
+        price,
+        price_week,
+        hubungi
+
     } = props.item;
 
     return (
@@ -32,11 +34,14 @@ const ScooterItem = (props) => {
                 <div className='scooter__item-content mt-4'>
                     <h4 className='app__scooter__item-title text-center'>{scooterName}</h4>
                     <h6 className='scooter__rent__price text-center mt-'>
-                        IDR.{price}K <span>/Day</span>
+                        IDR {price}K <span>/ Day</span>
                     </h6> 
+                    <h6 className='scooter__rent__price text-center mt-'>
+                        IDR {price_week}K <span>/ Week</span>
+                    </h6>
 
                     <div className='scooter__item-info d-flex align-items-center justify-content-center mt-3 mb-4'>
-                    <span className='d-flex align-items-center gap-1'>
+                    {/* <span className='d-flex align-items-center gap-1'>
                         {model}   
                     </span>
                     <span className='d-flex align-items-center gap-1'>
@@ -44,15 +49,15 @@ const ScooterItem = (props) => {
                     </span>
                     <span className='d-flex align-items-center gap-1'>
                         {speed}    
-                    </span>    
+                    </span>     */}
                     </div>
 
                     <button className='w-50 scooter__item-btn scooter__btn-rent'>
-                        <a href={`/scooters/${scooterName}`}>Rent</a>
+                        <a href={`${hubungi}`}>Rent</a>
                     </button>
 
                     <button className='w-50 scooter__item-btn scooter__btn-details'>
-                        <a href={`/scooters/${scooterName}`}>Details</a>
+                        <a href={`/scooters/${shortbrandName}`}>Details</a>
                     </button> 
                 </div>
             </div>

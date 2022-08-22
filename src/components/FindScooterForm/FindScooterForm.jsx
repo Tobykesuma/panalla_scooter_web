@@ -52,12 +52,12 @@ const FindScooterForm = () => {
             </FormGroup>
             {/* </div> */}
 
-            <FormGroup className='select__group'>
+            {/* <FormGroup className='select__group'>
                 <select>
                     <option value='matic'>Matic</option>
                     <option value='non-matic'>Non Matic</option>
                 </select>
-            </FormGroup>
+            </FormGroup> */}
 
             <FormGroup className='select__group'>
                 <button className='btn find__scooter-btn'>
