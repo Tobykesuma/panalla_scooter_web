@@ -1,0 +1,13 @@
+.scooter__item {
+    border: 1px solid var(--color-black);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.image__scooters {
+    width: 100px;
+    background-size: cover;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}

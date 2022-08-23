@@ -38,7 +38,7 @@ const Navbar = () => {
                         <a href='/' onClick={closeMenu}>Home</a>
                     </li>
                     <li className='nav-items'>
-                        <a href='/rent' onClick={closeMenu}>Rent Scooters</a> 
+                        <a href='/scooters' onClick={closeMenu}>Rent Scooters</a> 
                     </li>
                     <li className='nav-items'>
                         <a href='/about' onClick={closeMenu}>About</a> 

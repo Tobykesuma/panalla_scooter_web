@@ -10,7 +10,6 @@ import {
     price,
     price_week,
     hubungi,
-
 } from'../../constant/ScooterData';
 
 const ScooterItem = (props) => {
@@ -28,7 +27,7 @@ const ScooterItem = (props) => {
         <Col lg='4' sm='6' className='mb-5'>
             <div className='scooter__item'>
                 <div className='scooter__img'>
-                    <img src={imgUrl} alt='' className='w-100' />
+                    <img src={imgUrl} alt='' className='image__scooters w-100' />
                 </div>
 
                 <div className='scooter__item-content mt-4'>
