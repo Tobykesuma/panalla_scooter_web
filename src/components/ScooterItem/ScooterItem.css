@@ -1,6 +1,6 @@
 .scooter__item {
     border: 1px solid var(--color-black);
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 5px;
 }
 
@@ -10,4 +10,75 @@
     height: auto;
     justify-content: center;
     align-items: center;
+}
+
+.scooter__item-btn {
+    border-radius: 0;
+    border: none;
+    outline: none;
+    background: var(--color-blue);
+    padding: 8px 0px;
+    text-transform: uppercase;
+}   
+
+.scooter__item-btn a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-weight: 700;
+    font-family: var(--font-alt);
+}
+
+.scooter__item-btn a:hover {
+    color: var(--color-black);
+}
+
+.scooter__btn-details {
+    background: var(--main-color);
+    border-radius: 0px 4px 4px 0px;
+}
+
+.scooter__btn-rent {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.scooter__item-content {
+    background: var(--secondary-color);
+    padding-top: 1.2rem;
+}
+
+.scooter__item-content h4 {
+    font-family: var(--font-sick);
+    font-size: 1.8rem;
+    color: var(--color-white);
+}
+
+.scooter__item-content h6 {
+    color: var(--color-white);
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: var(--font-alt);
+}
+
+
+
+/* BreakPoints */
+
+@media screen and (max-width: 1150px) {
+
+}
+
+@media screen and (max-width: 850px) {
+    .scooter__item-info {
+        flex-wrap: wrap;
+    }
+    .scooter__item-btn {
+        padding: 5px 10px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .scooter__item-btn {
+        font-size: 0.9rem;
+    }
 }

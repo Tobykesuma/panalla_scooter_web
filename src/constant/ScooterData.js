@@ -1,18 +1,18 @@
 // Scooters Category //
-import Scoopy from '../assets/scoopy.png';
+import Scoopy from '../assets/scoopyy.jpg';
 import Nmax from '../assets/nmax.png';
 import Varion from '../assets/varion.png';
-import PcxHonda from '../assets/pcxhonda.png';
-import Fazzio from '../assets/YamahaFazzio.png';
-import Vespa125 from '../assets/vespas125.png';
-import Vario125 from '../assets/newHondavario125.webp';
-import YamahaNmax155 from '../assets/newYamahanmax155.png';
-import YamahaLexi from '../assets/YamahaLexi.png';
-import NewScoopy from '../assets/newHondascoopy.webp';
-import HondaGenio from '../assets/HondaGenio.png';
-import Vario150 from '../assets/Hondavario150.png';
-import VarioTechno125 from '../assets/variotechno125.png';
-import HondaBeat from '../assets/Hondabeat.png';
+import PcxHonda from '../assets/pcxhonda.jpg';
+import Fazzio from '../assets/fazzio.jpg';
+import Vespa125 from '../assets/vespa-s125.jpg';
+import Vario125 from '../assets/vario150.jpg';
+import YamahaNmax155 from '../assets/nmax-155.jpg';
+import YamahaLexi from '../assets/lexi.jpg';
+import NewScoopy from '../assets/new-scoopy.jpg';
+import HondaGenio from '../assets/genio.jpg';
+import Vario150 from '../assets/vario150.jpg';
+import VarioTechno125 from '../assets/variotechno-125.jpg';
+import HondaBeat from '../assets/beat.jpg';
 
 
 

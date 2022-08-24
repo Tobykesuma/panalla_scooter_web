@@ -30,7 +30,7 @@ const ScooterItem = (props) => {
                     <img src={imgUrl} alt='' className='image__scooters w-100' />
                 </div>
 
-                <div className='scooter__item-content mt-4'>
+                <div className='scooter__item-content'>
                     <h4 className='app__scooter__item-title text-center'>{scooterName}</h4>
                     <h6 className='scooter__rent__price text-center mt-'>
                         IDR {price}K <span>/ Day</span>
@@ -39,7 +39,7 @@ const ScooterItem = (props) => {
                         IDR {price_week}K <span>/ Week</span>
                     </h6>
 
-                    <div className='scooter__item-info d-flex align-items-center justify-content-center mt-3 mb-4'>
+                    <div className='scooter__item-info d-flex align-items-center justify-content-center mt-3'>
                     {/* <span className='d-flex align-items-center gap-1'>
                         {model}   
                     </span>

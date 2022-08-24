@@ -1,0 +1,10 @@
+.app__testimonial {
+    padding: 1rem;   
+}
+
+
+.testimonial__descripton {
+    color: var(--color-black);
+    font-size: 0.9rem;
+    line-height: 30px;
+}

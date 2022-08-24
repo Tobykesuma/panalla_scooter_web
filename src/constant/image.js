@@ -5,14 +5,6 @@ import logo from '../assets/logo.png';
 import ServicesOutline from '../assets/SERVICES.svg';
 import ContactOutline from '../assets/CONTACT.svg';
 
-
-
-// Category Scooters //
-import Scoopy from '../assets/scoopy.png';
-import Nmax from '../assets/nmax.png';
-import Varion from '../assets/varion.png';
-import PcxHonda from '../assets/pcxhonda.png'
-
 // Gallery Images //
 import Gallery01 from '../assets/client1.jpeg';
 import Gallery02 from '../assets/client2.jpeg';
@@ -29,14 +21,17 @@ import Gallery12 from '../assets/client12.jpeg';
 import Gallery13 from '../assets/client13.jpeg';
 
 
+// Testimoni Images //
+import Client_01 from '../assets/avatar1.jpg';
+import Client_02 from '../assets/avatar2.jpg';
+import Client_03 from '../assets/avatar3.jpg';
+import Client_04 from '../assets/avatar4.jpg';
+
+
 export default {
     logo,
     ServicesOutline,
     ContactOutline,
-    Scoopy,
-    Nmax,
-    Varion,
-    PcxHonda,
     Gallery01,
     Gallery02,
     Gallery03,
@@ -50,4 +45,9 @@ export default {
     Gallery11,
     Gallery12,
     Gallery13,
+    Client_01,
+    Client_02,
+    Client_03,
+    Client_04,
+
 }
