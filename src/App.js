@@ -10,6 +10,8 @@ import Gallery from './components/Gallery/Gallery';
 import Rent from './pages/Rent/Rent';
 import FindScooterForm from './components/FindScooterForm/FindScooterForm';
 import ScooterRent from './components/ScooterItem/ScooterRent';
+import Testimonial from './pages/Testimonial/Testimonial';
+import Scooters from './pages/Scooters/Scooters';
 
 
 
@@ -56,7 +58,8 @@ function App() {
         <Gallery />
         <ScooterRent />
         <Rent />
-
+        {/* <Testimonial /> */}
+        <Scooters />
 
         <Footer />
         </>

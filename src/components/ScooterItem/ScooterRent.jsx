@@ -18,7 +18,7 @@ const ScooterRent = () => {
                     <h2 className='scooter__rent-title'>Hot Offers</h2>
                 </Col>
 
-                {scooterData.slice(0, 12).map((item) => (
+                {scooterData.slice(0, 6).map((item) => (
                     <ScooterItem item={item} key={item.id} />
                 ))}
             </Row>

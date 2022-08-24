@@ -1,6 +1,7 @@
 .from__group {
     width: 30%;
     margin-bottom: 0;
+    position: relative;
 }
 
 .from__group input {
@@ -12,6 +13,8 @@
 
 .from__group input::placeholder {
     color: var(--color-black);
+    padding: 8px 12px;
+    width: 100%;
 }
 
 .scooter__form {
@@ -24,7 +27,6 @@
 
 .select__group {
     width: 30%;
-    position: relative;
 }
 
 .select__group select, input, label {
@@ -33,6 +35,10 @@
     border-radius: 1px solid #7c8a972a;
     outline: none;
     color: #7c8a97;
+}
+
+.select__group option, value {
+    display: flex;
 }
 
 .select__group a {
@@ -66,7 +72,6 @@
 
     .from__group input,
     .select__group select {
-        padding: 7px 10px;
         font-size: 0.8rem;
     }
 
@@ -74,9 +79,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .scooter__form {
-        padding: 20px 10px;
-    }
 
 }
 
