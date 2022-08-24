@@ -1,5 +1,5 @@
 {
-  "short_name": "Panalla Scooter Rental Bali",
+  "short_name": "Panalla Scooter Rental Bali, Sewa motor murah bali",
   "name": "Panalla Scooter Rental Bali Indonesia",
   "icons": [
     {
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#E77937",
+  "background_color": "#42929D"
 }
