@@ -1,0 +1,88 @@
+.form__booking__group {
+    width: 30%;
+    margin-bottom: 0;
+}
+
+.form__booking__group input {
+    border: 1px solid #7c8a972a;
+    padding: 8px 12px;
+    width: 100%;
+    outline: none;
+}
+
+.form__booking__group input::placeholder {
+    color: #7c8a972a;
+}
+
+.form__booking {
+    background: var(--color-white);
+    padding-top: 55px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.form__booking__group-select {
+    width: 30%;
+}
+
+.form__booking__group-select select {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #7c8a972a;
+    outline: none;
+    color: var(--color-black);
+}
+
+.booking__scooter-btn {
+    background: var(--main-color) !important;
+    color: var(--color-white) !important;
+    padding: 8px 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .form__booking {
+        padding: 30px 10px;
+    }
+
+    .form__booking__group input,
+    .form__booking__group-select select {
+        padding: 10px 10px;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .form__booking {
+        padding: 20px 10px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .form__booking__group {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .form__booking__group input {
+        font-size: 0.7rem !important;
+    }
+
+    .form__booking__group-select {
+        width: 100%;
+        padding-right: 10px;
+        font-size: 0.7rem;
+    }
+
+
+
+
+}
+
+
+
+
