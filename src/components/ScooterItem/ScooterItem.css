@@ -1,13 +1,77 @@
 .scooter__item {
     border: 1px solid var(--color-black);
-    padding: 20px;
     border-radius: 5px;
+
 }
 
-.image__scooters {
-    width: 100px;
-    background-size: cover;
-    height: auto;
-    justify-content: center;
-    align-items: center;
+.scooter__item-btn {
+    border-radius: 0;
+    border: none;
+    outline: 1px solid var(--color-black);
+    background: var(--main-color);
+    padding: 8px 0px;
+    font-size: 1rem;
+}
+
+.scooter__item-btn a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: var(--font-alt);
+}
+
+.scooter__item-btn a:hover {
+    color: var(--main-color);
+}
+
+.scooter__btn-details {
+    background: var(--secondary-color);
+    border-radius: 0px 4px 4px 0px;
+}
+
+.scooter__btn-rent {
+    border-radius: 4px 0px 0px 4px;
+    background-color: var(--secondary-color);
+}
+
+.scooter__item-content {
+    background-color: var(--color-orange);
+}
+
+.scooter__item-content h4 {
+    font-size: 1.6rem;
+    font-family: var(--font-sick);
+    color: var(--color-white);
+}
+
+.scooter__item-content h6 {
+    font-size: 1.2rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+}
+
+
+/* Breakpoints */
+
+@media only screen and (max-width: 992px) {
+    .scooter__item-content h4 {
+        font-size: 1.3rem;
+        margin-bottom: 0;
+    }
+
+    .scooter__item-content h6 {
+        font-size: 1rem;
+        margin-top: 10px;
+        letter-spacing: 0.1em;
+    }
+
+    .scooter__item-btn {
+        padding: 5px 10px;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .scooter__item-btn {
+        font-size: 0.8rem;
+    }
 }
