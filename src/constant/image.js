@@ -29,6 +29,9 @@ import Gallery12 from '../assets/client12.jpeg';
 import Gallery13 from '../assets/client13.jpeg';
 
 
+import HeroImage from '../assets/vespas125.png';
+
+
 export default {
     logo,
     ServicesOutline,
@@ -50,4 +53,5 @@ export default {
     Gallery11,
     Gallery12,
     Gallery13,
+    HeroImage,
 }

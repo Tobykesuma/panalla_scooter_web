@@ -11,6 +11,7 @@ import Rent from './pages/Rent/Rent';
 import ScooterRent from './components/ScooterItem/ScooterRent';
 import FormBookingHome from './components/FindFormScooter/FormBookingHome';
 import { Link } from 'react-router-dom';
+import Hero from './components/Hero/Hero';
 
 
 function App() {
@@ -50,7 +51,7 @@ function App() {
         <>
         <ScrollTop />
         <Navbar />
-        
+        <Hero />        
         <About />
        
         <Gallery />

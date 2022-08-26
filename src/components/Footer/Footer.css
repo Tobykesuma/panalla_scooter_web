@@ -57,6 +57,18 @@
     
 }
 
+.footer__icons-icon i {
+    color: var(--color-white);
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.footer__icons-icon i:hover {
+    color: var(--color-black);
+}
+
+
 .newsletter span i {
     color: var(--color-black);
     cursor: pointer;
@@ -96,9 +108,12 @@
         margin-bottom: 30px;
     }
 
+   
+    .footer__icons-icon i {
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+    } 
     
-    
-
-
 }
 
