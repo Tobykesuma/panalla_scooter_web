@@ -13,6 +13,7 @@ import Nmax from '../assets/nmax.png';
 import Varion from '../assets/varion.png';
 import PcxHonda from '../assets/pcxhonda.png'
 
+
 // Gallery Images //
 import Gallery01 from '../assets/client1.jpeg';
 import Gallery02 from '../assets/client2.jpeg';
@@ -30,6 +31,8 @@ import Gallery13 from '../assets/client13.jpeg';
 
 
 import HeroImage from '../assets/vespas125.png';
+import HeroImage2 from '../assets/YamahaFazzio.png';
+import HeroImage3 from '../assets/nmax.png';
 
 
 export default {
@@ -54,4 +57,6 @@ export default {
     Gallery12,
     Gallery13,
     HeroImage,
+    HeroImage2,
+    HeroImage3
 }

@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     padding: 4rem;
-    background-image: url('../../assets/hero.jpg');
+    background-image: url('../../assets/HomeBG.jpg');
     /* background-color: var(--secondary-color); */
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,11 +14,14 @@
     max-width: 100%;
     min-height: 100vh;
 }
-
+/* 
+.app__hero-container {
+    width: 100%;
+    /* max-width: 1240px; */
 .app__hero-container {
     max-width: 1240px;
     margin: auto;
-}
+}    
 
 .app__hero-left {
     padding: 1rem;
@@ -29,7 +32,7 @@
 }
 
 .app__hero-left h1 {
-    color: var(--main-color);
+    color: var(--secondary-color);
     font-size: 6rem;
     font-family: var(--font-alt);
     font-weight: 800;
@@ -54,11 +57,12 @@
 
 .app__hero-image-container {
     width: 100%;
-    display: flex;
+ 
 }
 
 .app__hero img {
     width: 100%;
+    max-width: 100%;
     margin: auto;
     height: 100%;
 }
@@ -70,8 +74,6 @@
 @media screen and (max-width: 940px) {
     .app__hero .app__hero-container {
         grid-template-columns:1fr;
-        background-image: none;
-        background-color: var(--secondary-color);
         background-repeat: no-repeat;
         padding: 1rem;
     }
