@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Hero.css';
 import image from '../../constant/image';
-import Slider from 'react-slick';
+
 
 
 export default class Hero extends Component {
