@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import './Rent.css';
-
+import {
+  Container,
+  Row,
+  Col,
+} from 'reactstrap';
+ 
 
 const Rent = () => {
     // const [filter, setFilter] = useState('Customer_Favorites');
@@ -19,7 +24,7 @@ const Rent = () => {
     // }, [filter]);
   
     return (
-    <section className='app__rent__scooter' id='products'>
+    <section className='app__scooters' id='scooters'>
         
     </section>
   );

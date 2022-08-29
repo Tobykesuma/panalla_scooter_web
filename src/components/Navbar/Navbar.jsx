@@ -38,7 +38,7 @@ const Navbar = () => {
                         <a href='/' onClick={closeMenu}>Home</a>
                     </li>
                     <li className='nav-items'>
-                        <a href='/rent' onClick={closeMenu}>Rent Scooters</a> 
+                        <a href='/scooters' onClick={closeMenu}>Rent Scooters</a> 
                     </li>
                     <li className='nav-items'>
                         <a href='/about' onClick={closeMenu}>About</a> 
@@ -53,7 +53,7 @@ const Navbar = () => {
                         <a href='/gallery' onClick={closeMenu}>Gallery</a>
                     </li>
                     <button className='button__booking'>
-                        <a href='https://api.whatsapp.com/send?phone=6287862127513&text=Hello Panalla Scooter Bali' onClick={closeMenu}>BOOK NOW</a>
+                        <a href='https://wa.me/6287862121513?text=Hello%20Panalla%20Scooters%20Bali%20I%20want%20to%20rent%20scooter.%20Please%20give%20your%20scooter%20recomendations.' onClick={closeMenu}>BOOK NOW</a>
                 </button>
                 </ul>
                 

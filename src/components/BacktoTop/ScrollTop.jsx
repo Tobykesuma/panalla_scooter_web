@@ -11,7 +11,7 @@ function ScrollTop () {
 
     return (
       <div className='app__scrolltop'>
-        <a href='#' className={`${visible ? "scroll-block" : "scroll-nonoe"}`}>
+        <a href='#' className={`${visible ? "scroll-block" : "scroll-none"}`}>
             <FaChevronCircleUp />
         </a>
       </div>

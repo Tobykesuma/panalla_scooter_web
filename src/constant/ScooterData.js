@@ -1,19 +1,16 @@
 // Scooters Category //
-import Scoopy from '../assets/scoopy.png';
-import Nmax from '../assets/nmax.png';
-import Varion from '../assets/varion.png';
-import PcxHonda from '../assets/pcxhonda.png';
-import Fazzio from '../assets/YamahaFazzio.png';
-import Vespa125 from '../assets/vespas125.png';
-import Vario125 from '../assets/newHondavario125.webp';
-import YamahaNmax155 from '../assets/newYamahanmax155.png';
-import YamahaLexi from '../assets/YamahaLexi.png';
-import NewScoopy from '../assets/newHondascoopy.webp';
-import HondaGenio from '../assets/HondaGenio.png';
-import Vario150 from '../assets/Hondavario150.png';
-import VarioTechno125 from '../assets/variotechno125.png';
-import HondaBeat from '../assets/Hondabeat.png';
-
+import Scoopy from '../assets/scoopyy.jpg';
+import PcxHonda from '../assets/pcxhonda.jpg';
+import Fazzio from '../assets/fazzio.jpg';
+import Vespa125 from '../assets/vespa-s125.jpg';
+import Vario125 from '../assets/vario150.jpg';
+import YamahaNmax155 from '../assets/nmaxx.jpg';
+import YamahaLexi from '../assets/lexi.jpg';
+import NewScoopy from '../assets/new scoopy.jpg';
+import HondaGenio from '../assets/genio.jpg';
+import Vario150 from '../assets/vario150.jpg';
+import VarioTechno125 from '../assets/variotechno-125.jpg';
+import HondaBeat from '../assets/beat.jpg';
 
 
 
@@ -28,7 +25,8 @@ const scooterData = [
         imgUrl: Fazzio,
         price: 90,
         price_week: 550,
-        hubungi: 'https://api.whatsapp.com/send?phone=6287862127513&text=Hello%20Panalla%20Scooter%20Bali, Yamaha Fazzio is it availabel ?' ,
+        category: 'low',
+        hubungi: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Yamaha%20Fazzio%20available%20?',
     },
 
     {
@@ -39,7 +37,8 @@ const scooterData = [
         imgUrl: Vespa125,
         price: 150,
         price_week: 900,
-        hubungi: 'https://api.whatsapp.com/send?phone=6287862127513&text=Hello%20Panalla%20Scooter%20Bali, Vespa S 125 is it availabel ?',
+        category: 'high',
+        hubungi: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Vespa%20S%20125%20available%20?',
     },
 
     {
@@ -50,7 +49,8 @@ const scooterData = [
         imgUrl: Vario125,
         price: 75,
         price_week: 450,
-        hubungi: 'https://api.whatsapp.com/send?phone=6287862127513&text=Hello%20Panalla%20Scooter%20Bali, New Honda Vario 125 is it availabel ?',
+        category: 'low',
+        hubungi: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20New%20Honda%20Vario%20125%20available%20?',
     },
 
     {
@@ -61,7 +61,8 @@ const scooterData = [
         imgUrl: YamahaNmax155,
         price: 150,
         price_week: 900,
-        hubungi: 'https://api.whatsapp.com/send?phone=6287862127513&text=Hello%20Panalla%20Scooter%20Bali, New Yamaha Nmax 155 is it availabel ?',
+        category: 'high',
+        hubungi: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20New%20Yamaha%20Nmax%20155%20available%20?',
     },
 
     {
@@ -72,7 +73,8 @@ const scooterData = [
         imgUrl: PcxHonda,
         price: 150,
         price_week: 900,
-        hubungi: 'https://api.whatsapp.com/send?phone=6287862127513&text=Hello%20Panalla%20Scooter%20Bali, New Honda PCX is it availabel ?',
+        category: 'high',
+        hubungi: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20New%20Honda%20PCX%20available%20?',
     },
 
     {
@@ -83,7 +85,8 @@ const scooterData = [
         imgUrl: YamahaLexi,
         price: 90,
         price_week: 550,
-        hubungi: 'https://api.whatsapp.com/send?phone=6287862127513&text=Hello%20Panalla%20Scooter%20Bali, Yamaha Lexi is it availabel ?',
+        category: 'low',
+        hubungi: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Yamaha%20Lexi%20available%20?',
     },
 
     {
@@ -94,7 +97,8 @@ const scooterData = [
         imgUrl: NewScoopy,
         price: 70,
         price_week: 425,
-        hubungi: 'https://api.whatsapp.com/send?phone=6287862127513&text=Hello%20Panalla%20Scooter%20Bali, New Honda Scoopy is it availabel ?',
+        category: 'low',
+        hubungi: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20New%20Honda%20Scoopy%20available%20?',
     },
 
     {
@@ -105,7 +109,8 @@ const scooterData = [
         imgUrl: Scoopy,
         price: 70,
         price_week: 425,
-        hubungi: 'https://api.whatsapp.com/send?phone=6287862127513&text=Hello%20Panalla%20Scooter%20Bali, Honda Scoopy FI is it availabel ?',
+        category: 'low',
+        hubungi: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20Scoopy%20FI%20availabel%20?',
     },
 
     {
@@ -116,7 +121,8 @@ const scooterData = [
         imgUrl: HondaGenio,
         price: 70,
         price_week: 425,
-        hubungi: 'https://api.whatsapp.com/send?phone=6287862127513&text=Hello%20Panalla%20Scooter%20Bali, Honda Genio is it availabel ?',
+        category: 'low',
+        hubungi: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20Genio%20available%20?',
     },
 
     {
@@ -127,7 +133,8 @@ const scooterData = [
         imgUrl: Vario150,
         price: 80,
         price_week: 500,
-        hubungi: 'https://api.whatsapp.com/send?phone=6287862127513&text=Hello%20Panalla%20Scooter%20Bali, Honda Vario 150 is it availabel ?',
+        category: 'low',
+        hubungi: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20Vario%20150%20available%20?',
     },
 
     {
@@ -138,7 +145,8 @@ const scooterData = [
         imgUrl: VarioTechno125,
         price: 70,
         price_week: 425,
-        hubungi: 'https://api.whatsapp.com/send?phone=6287862127513&text=Hello%20Panalla%20Scooter%20Bali, Honda Vario Techno 125 is it availabel ?',
+        category: 'low',
+        hubungi: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20Vario%20Techno%20125%20available%20?',
     },
 
     {
@@ -149,7 +157,8 @@ const scooterData = [
         imgUrl: HondaBeat,
         price: 60,
         price_week: 400,
-        hubungi: 'https://api.whatsapp.com/send?phone=6287862127513&text=Hello%20Panalla%20Scooter%20Bali, Honda Beat is it availabel ?'
+        category: 'low',
+        hubungi: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooter%20Bali,%20Honda%20Beat%20available%20?',
     },
 
 

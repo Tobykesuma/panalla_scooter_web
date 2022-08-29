@@ -15,11 +15,11 @@ const quickLinks = [
     display: 'Privary Policy',
   },
   {
-    path: '/rental-requirements',
+    path: 'https://drive.google.com/file/d/1cfnFakg42Hp3oUvngSUnRw4oaKll0haU/view?usp=sharing',
     display: 'Rental Reqiurements',
   },
   {
-    path: '/contact',
+    path: 'https://wa.me/6287862121513?text=Hello%20Panalla%20Scooters%20Bali%20I%20want%20to%20rent%20scooter.%20Please%20give%20your%20scooter%20recomendations.',
     display: 'Contact',
   },
   {
@@ -71,9 +71,9 @@ const Footer = () => {
           <Col lg='3' md='4' sm='6'>
             <div className='mb-4'>
               <h5 className='footer__link-title mb-4'>Head Office</h5>
-              <p className='office__info'>Jln. Benesari No.01, Kuta, Badung, Bali</p>
+              <p className='office__info'>Jln. Benesari Gg Satwa No.01, Kuta, Bali</p>
               <p className='office__info'>Phone: +62 812345678910</p>
-              <p className='office__info'>Email : @infopanallascooterbali.com</p>
+              <p className='office__info'>Email : wawanputrawan05@gmail.com</p>
               <p className='office__info'>Office Time: 9AM - 9PM</p>
             </div>
           </Col>
@@ -84,19 +84,34 @@ const Footer = () => {
               <p className='section__description2'>Subscribe our newsletter</p>
               <div className='newsletter'>
                 <input type='email' placeholder='Email' />
+                <a href='mailto:wawanputrawan05@gmail.com'>
                 <span>
                   <i class='bx bxs-send'>
-                    <a href='mailto:@infopanallascooterbali.com'></a>
                   </i>
                 </span>
+                </a>
               </div>
+              <div className='footer__icons-icon'>
+                <a href='https://www.instagram.com/sewamotormurahdibali__/' target='__blank'>
+                  <i class='bx bxl-instagram' />
+                </a>
+                <a href='https://wa.me/6287862121513?text=Hello%20Panalla%20Scooters%20Bali%20I%20want%20to%20rent%20scooter.%20Please%20give%20your%20scooter%20recomendations.' target='__blank'>
+                  <i class='bx bxl-whatsapp' />
+                </a>
+                <a href='mailto:wawanputrawan05@gmail.com' target='__blank'>
+                  <i class='bx bx-envelope' ></i>
+                </a>
+                <a href='https://linktr.ee/panallascooterrental' target='__blank'>
+                  <i class='bx bx-link-external' ></i>
+                </a>
+                </div>
             </div>
           </Col>
 
           <Col lg='12'>
             <div className='footer__bottom'>
               <p className='section__description d-flex align-items-center justify-content-center gap-1 pt-4'>
-                <i class='bx bx-copyright'></i>Copyright Panalla Scooter Rental Bali {year} All Rights Reserved. Design and Developed by Tobi Kesuma.
+               Copyright Panalla Scooter Rental Bali {year} All Rights Reserved. Design and Developed by Tobi Kesuma.
               </p>
             </div>
           </Col>

@@ -1,0 +1,40 @@
+.btn__scooter {
+    background-color: var(--secondary-color);
+    color: var(--color-white);
+}
+
+.btn__scooter button:hover{
+    color: var(--color-orange);
+}
+
+.app__scooter-btn {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.scooter__rent-sub {
+    font-size: 1.5rem;
+    font-family: var(--font-alt);
+}
+
+.scooter__rent-title {
+    font-size: 2.5rem;
+    font-family: var(--font-sick);
+    margin-top: 0;
+}
+
+/* Breakpoints */
+
+@media only screen and (max-width: 992px) {
+    .scooter__rent-sub {
+        font-size: 1rem;
+        margin-top: 0;
+    }
+
+    .scooter__rent-title {
+        font-size: 1.3rem;
+        margin-top: 0;
+    }
+}
+
