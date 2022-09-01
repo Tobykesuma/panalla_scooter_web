@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './FindScooterForm.css'
 import {
     Form,
@@ -6,6 +6,7 @@ import {
 } from 'reactstrap';
 
 const FindScooterForm = () => {
+
   return (
     <Form className='scooter__form'>
         <div className='form__scooter__rent d-flex align-items-center justify-content-center'>
@@ -23,12 +24,12 @@ const FindScooterForm = () => {
             </FormGroup> */}
 
             <FormGroup className='select__group'>
-                <input type='date' placeholder='Date' required />
+                <input type='date'  name='date-selected'   placeholder='Date' required />
             </FormGroup>
 
             <FormGroup className='select__group'>
                
-                <select>
+                <select name='duration'>
                 <option value='selected'>2 Days</option>
                 <option value='3days'>3 Days</option>
                 <option value='4days'>4 Days</option>
@@ -45,7 +46,7 @@ const FindScooterForm = () => {
             {/* <div className='pickedup__group'>
             <h5>Pickup Location</h5> */}
             <FormGroup className='select__group'>
-                <select>
+                <select name='pickup'>
                     <option value='selected'>Our Office</option>
                     <option value='location__send'>Send to my location</option>
                 </select>
@@ -61,7 +62,7 @@ const FindScooterForm = () => {
 
             <FormGroup className='select__group'>
                 <button className='btn find__scooter-btn'>
-                    <a href='' className='link__form__scooter'>
+                    <a href='https://wa.me/6281338847814?text=Hello Panalla Scooter Bali, Rent Request: Date:%date-selected% Duration: %duration% Pickup: %pickup%' className='link__form__scooter'>
                     Find Scooter
                     </a>
                 </button>

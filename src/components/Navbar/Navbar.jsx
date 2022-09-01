@@ -21,7 +21,7 @@ const Navbar = () => {
     }
     
     window.addEventListener('scroll', changeColor)
-
+    
     return (
         <div className={color ? 'app__header app__header-bg' : 'app__header'} id='navbar'>
             <nav className='app__navbar'>
