@@ -53,7 +53,7 @@ function App() {
         <ScrollTop />
         <Navbar />
         <Hero />    
-        <FindScooterForm />
+        {/* <FindScooterForm /> */}
         <About /> 
        
         <Gallery />

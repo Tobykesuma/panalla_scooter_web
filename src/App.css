@@ -32,12 +32,13 @@ ul, li {
 }
 
 .app__bg {
-  background: url('./assets/bg__about.webp');
+  /* background: url('./assets/bg__about.webp'); */
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
   background-attachment: fixed;
   opacity: 10;
+  background: var(--color-white);
 }
 
 .app__wrapper__img {

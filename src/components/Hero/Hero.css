@@ -15,7 +15,8 @@
     min-height: 100vh;
     background-attachment: fixed;
 }
-/* 
+/*
+ 
 .app__hero-container {
     width: 100%;
     /* max-width: 1240px; */
@@ -23,6 +24,33 @@
     max-width: 1240px;
     margin: auto;
 }    
+
+.app__hero-input-container .button__booking-home {
+    color: white;
+    background-color: var(--color-white);
+    border: 4px solid transparent;
+    font-weight: 700;
+    font-family: var(--font-alt);
+    transition: all .3s;
+    width: 190px;
+    height: 70px;
+}
+
+.app__hero-input-container .button__booking-home a {
+    text-decoration: none;
+}
+
+.app__hero-input-container .button__booking-home a {
+    color: var(--secondary-color);
+}
+
+.app__hero-input-container .button__booking-home a:hover {
+    color: var(--color-white);
+}
+
+.app__hero-input-container .button__booking-home:hover {
+    background-color: var(--secondary-color);
+}
 
 .app__hero-left {
     padding: 1rem;
